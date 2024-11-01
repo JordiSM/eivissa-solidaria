@@ -1,0 +1,235 @@
+/* CSS Variables for easy theme management */
+:root {
+    --primary-color: #004d99;
+    --secondary-color: #e6f2ff;
+    --background-color: #f4f4f4;
+    --text-color: #333;
+    --primary-font: 'Roboto', sans-serif;
+}
+
+/* Import Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+/* General Styles */
+body {
+    font-family: var(--primary-font);
+    margin: 0;
+    padding: 0;
+    background-color: var(--background-color);
+    color: var(--text-color);
+}
+
+.container {
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px 0;
+}
+
+header {
+    background-color: var(--primary-color);
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+}
+
+header .logo {
+    width: 100px;
+    height: auto;
+    margin-bottom: 10px;
+}
+
+header h1 {
+    margin: 10px 0 5px;
+    font-size: 2.5em;
+}
+
+header p {
+    margin: 0;
+    font-size: 1.2em;
+}
+
+section {
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin-bottom: 40px;
+}
+
+h2 {
+    color: var(--primary-color);
+    border-bottom: 2px solid var(--primary-color);
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    background-color: var(--secondary-color);
+    margin: 10px 0;
+    padding: 15px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+li:hover {
+    background-color: #d0e7ff;
+}
+
+/* Styles for icons and text alignment in Collection Points */
+#puntos-recogida ul li .info {
+    margin-top: 10px;
+}
+
+#puntos-recogida ul li .icon-text {
+    display: flex;
+    align-items: center;
+    margin-bottom: 5px;
+}
+
+#puntos-recogida ul li .icon-text i {
+    color: var(--primary-color);
+    margin-right: 8px;
+    min-width: 20px; /* Ensures icons have a minimum width for consistent alignment */
+    font-size: 1.2em; /* Adjusts the icon size if necessary */
+}
+
+#puntos-recogida ul li .icon-text span {
+    font-size: 1em;
+}
+
+#puntos-recogida ul li .icon-text a {
+    color: var(--primary-color);
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+#puntos-recogida ul li .icon-text a:hover {
+    color: #003366;
+    text-decoration: underline;
+}
+
+/* Styles for Donaciones Monetarias section */
+#donaciones-monetarias ul li {
+    padding: 10px;
+    border-bottom: 1px solid #ccc;
+}
+
+#donaciones-monetarias ul li:last-child {
+    border-bottom: none;
+}
+
+.bank-info {
+    display: flex;
+    align-items: flex-start;
+}
+
+.bank-info i {
+    color: var(--primary-color);
+    font-size: 1.5em;
+    margin-right: 15px;
+    margin-top: 5px;
+    min-width: 30px; /* Ensures consistent spacing */
+}
+
+.bank-details {
+    font-size: 1em;
+}
+
+.bank-details strong {
+    font-size: 1.1em;
+}
+
+/* Map Styles */
+#map {
+    height: 500px;
+    width: 100%;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+/* Contact Form Styles */
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    margin: 10px 0 5px;
+}
+
+input, textarea {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+button {
+    margin-top: 15px;
+    padding: 10px;
+    background-color: var(--primary-color);
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #003366;
+}
+
+/* Footer Styles */
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 15px 0;
+}
+
+footer .social-media a {
+    color: #fff;
+    margin: 0 10px;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+footer .social-media a:hover {
+    color: var(--secondary-color);
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+    header h1 {
+        font-size: 2em;
+    }
+
+    section {
+        margin: 10px;
+        padding: 15px;
+    }
+
+    #map {
+        height: 300px;
+    }
+
+    footer .social-media a {
+        display: block;
+        margin: 5px 0;
+    }
+
+    .bank-info {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .bank-info i {
+        margin-bottom: 10px;
+    }
+
+}
