@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Eivissa Solidaria - El pueblo ayuda al pueblo</title>
+    <meta name="description" content="Página de donaciones desde Ibiza para apoyar a los afectados en Valencia por las DANAs. Dona materiales, comida o realiza donaciones monetarias.">
+    <!-- Font Awesome Kit (mantener si aún usas iconos de Font Awesome) -->
+    <script src="https://kit.fontawesome.com/936e1324fc.js" crossorigin="anonymous" defer=""></script>
+    <!-- Leaflet CSS for interactive maps -->
+    <link rel="stylesheet" href="https://unpkg.com/leaflet/dist/leaflet.css" />
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="css/styles.css">
+    <!-- Favicon for the website -->
+    <link rel="icon" href="images/favicon.ico" type="image/x-icon">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <img src="images/logo.png" alt="Logo Eivissa Solidaria" class="logo">
+            <h1>Eivissa Solidaria</h1>
+            <p>Donaciones desde Ibiza para apoyar a los afectados por las Danas en Valencia</p>
+        </div>
+    </header>
+
+    <!-- Section for Collection Points -->
+    <section id="puntos-recogida">
+        <div class="container">
+            <h2>Puntos de Recogida en Ibiza</h2>
+            <ul>
+                <li>
+                    <strong>Parroquia Santa Cruz Ibiza</strong>
+                    <div class="info">
+                        <div class="icon-text">
+                            <i class="fa-solid fa-location-dot"></i>
+                            <span>Dirección: C/ d Aragó, 16, 07800 Eivissa, Illes Balears</span>
+                        </div>
+                        <div class="icon-text">
+                            <i class="fa-solid fa-phone"></i>
+                            <span>Teléfono: <a href="tel:+34971301276">+34 971 30 12 76</a></span>
+                        </div>
+                    </div>
+                </li>
+                <li>
+                    <strong>Can Tina</strong>
+                    <div class="info">
+                        <div class="icon-text">
+                            <i class="fa-solid fa-location-dot"></i>
+                            <span>Dirección: Carrer de Sant Cristòfol, 15, 07800 Eivissa</span>
+                        </div>
+                        <div class="icon-text">
+                            <i class="fa-solid fa-phone"></i>
+                            <span>Teléfono: <a href="tel:+34971094965">+34 971 09 49 65</a></span>
+                        </div>
+                    </div>
+                </li>
+            </ul>
+            <h2>Puntos de Recogida en San Antonio</h2>
+            <ul>
+                <!-- San Antoni -->
+                <li>
+                    <strong>Policia Local de Sant Antoni de Portmany</strong>
+                    <div class="info">
+                        <div class="icon-text">
+                            <i class="fa-solid fa-location-dot"></i>
+                            <span>Dirección: C/ dAlacant, 33, 07820 Sant Antoni de Portmany</span>
+                        </div>
+                        <div class="icon-text">
+                            <i class="fa-solid fa-phone"></i>
+                            <span>Teléfono: <a href="tel:+34971340830">+34 971 34 08 30</a></span>
+                        </div>
+                    </div>
+                </li>
+                <li>
+                    <strong>CEIP Cervantes</strong>
+                    <div class="info">
+                        <div class="icon-text">
+                            <i class="fa-solid fa-location-dot"></i>
+                            <span>Dirección: Carrer Marino Riquer, s/n, 07820 Sant Antoni de Portmany</span>
+                        </div>
+                        <div class="icon-text">
+                            <i class="fa-solid fa-phone"></i>
+                            <span>Teléfono: <a href="tel:+34971341423">+34 971 34 14 23</a></span>
+                        </div>
+                    </div>
+                </li>
+                <li>
+                    <strong>CEIP Ses Planes</strong>
+                    <div class="info">
+                        <div class="icon-text">
+                            <i class="fa-solid fa-location-dot"></i>
+                            <span>Dirección: Diseminado Poligono 14, 114, 07829, Cala de Bou</span>
+                        </div>
+                        <div class="icon-text">
+                            <i class="fa-solid fa-phone"></i>
+                            <span>Teléfono: No info</span>
+                        </div>
+                    </div>
+                </li>
+                <!-- Añade más puntos según sea necesario -->
+            </ul>
+        </div>
+    </section>
+
+    <section id="donaciones-monetarias">
+        <div class="container">
+            <h2>Donaciones Monetarias (proximamente)</h2>
+            <ul>
+                <li>
+                    <div class="bank-info">
+                        <i class="fa-solid fa-landmark"></i>
+                        <div class="bank-details">
+                            <strong>Banco</strong><br>
+                            Titular: XXXXXX<br>
+                            IBAN: ESXX XXXX XXXX XXXX XXXX XXXX
+                        </div>
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </section>
+
+    <section id="mapa">
+        <div class="container">
+            <h2>Mapa de Puntos de Recogida</h2>
+            <div id="map"></div>
+        </div>
+    </section>
+
+    <section id="contacto">
+        <div class="container">
+            <h2>Contacto</h2>
+            <form action="https://formspree.io/f/your-form-id" method="POST">
+                <label for="nombre">Nombre:</label>
+                <input type="text" id="nombre" name="nombre" required>
+
+                <label for="email">Correo Electrónico:</label>
+                <input type="email" id="email" name="_replyto" required>
+
+                <label for="mensaje">Mensaje:</label>
+                <textarea id="mensaje" name="mensaje" rows="5" required></textarea>
+
+                <button type="submit">Enviar</button>
+            </form>
+            <h2>Instagram</h2>
+            <strong>Eivissasolidaria:</strong>  <a href="https://www.instagram.com/eivissasolidaria">https://www.instagram.com/eivissasolidaria</a>
+            <p>Esta página web la estoy creando y modificando en este mismo instante, puedes contactar conmigo por instagram o por mi formulario de contacto. Muchas Gracias!</p>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 Eivissa Solidaria. Todos los derechos reservados.</p>
+            <div class="social-media">
+                <a href="https://www.instagram.com/eivissasolidaria" target="_blank" aria-label="Instagram">Instagram: @eivissasolidaria</a>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Leaflet JS for interactive maps -->
+    <script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
+    <!-- Custom JavaScript -->
+    <script src="js/script.js"></script>
+</body>
+</html>
