@@ -145,6 +145,75 @@ li:hover {
     font-size: 1.1em;
 }
 
+/* Styles for Donation Items Section */
+#articulos-donacion {
+    background-color: var(--secondary-color);
+    padding: 40px 0; /* Añadido padding para mejor espaciado */
+}
+
+#articulos-donacion h2 {
+    color: var(--primary-color);
+    border-bottom: 2px solid var(--primary-color);
+    padding-bottom: 10px;
+    margin-bottom: 30px; /* Aumentado margen para mayor separación */
+    text-align: center;
+}
+
+.donation-items {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.donation-items li {
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    margin: 10px;
+    padding: 20px;
+    text-align: center;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    flex: 0 1 45%; /* Default: 2 columns en móviles */
+    box-sizing: border-box; /* Asegura que el padding y border estén incluidos en el width */
+}
+
+.donation-items li:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.donation-items li i {
+    font-size: 2.5em; /* Aumentado tamaño del icono */
+    color: var(--primary-color);
+    margin-bottom: 15px; /* Aumentado margen para mejor separación */
+}
+
+.donation-items li span {
+    display: block;
+    font-size: 1.1em; /* Aumentado tamaño de fuente para mejor legibilidad */
+    color: var(--text-color);
+    font-weight: bold; /* Añadido negrita para resaltar */
+}
+
+/* Media Queries */
+
+/* Pantallas de Escritorio: 4 columnas */
+@media (min-width: 768px) {
+    .donation-items li {
+        flex: 0 1 21%; /* Aproximadamente 4 columnas, ajustado por márgenes */
+    }
+}
+
+/* Opcional: Pantallas muy grandes para ajustar aún más */
+@media (min-width: 1200px) {
+    .donation-items li {
+        flex: 0 1 18%; /* Más espacio para cada columna si es necesario */
+    }
+}
+
 /* Map Styles */
 #map {
     height: 500px;
@@ -231,5 +300,4 @@ footer .social-media a:hover {
     .bank-info i {
         margin-bottom: 10px;
     }
-
 }
