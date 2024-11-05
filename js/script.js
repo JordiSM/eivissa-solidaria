@@ -104,19 +104,11 @@ document.addEventListener('DOMContentLoaded', function () {
             type: 'collection_point'
         },
         {
-            name: 'Todas las taquillas de Trasmapi y oficina',
-            address: null,
-            phone: null,
-            latitude: null,
-            longitude: null,
-            type: 'office'
-        },
-        {
             name: 'Hotel Grand Palladium',
-            address: 'Palladium Can Misses',
-            phone: null,
-            latitude: null,
-            longitude: null,
+            address: "Carretera de Platja d'en Bossa, Platja d'en Bossa, s/n, 07817",
+            phone: "+34 971 39 67 84",
+            latitude: 38.87700214813464,
+            longitude: 1.399963859599408,
             type: 'hotel'
         },
         {
@@ -219,14 +211,6 @@ document.addEventListener('DOMContentLoaded', function () {
             latitude: 38.70755427327232,
             longitude: 1.4588037847180284,
             type: 'parish'
-        },
-        {
-            name: 'Taquilla de Trasmapi',
-            address: null,
-            phone: null,
-            latitude: null,
-            longitude: null,
-            type: 'ticket'
         },
         {
             name: 'Taquillas Trasmapi Formentera',
