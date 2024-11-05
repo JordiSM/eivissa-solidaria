@@ -43,7 +43,24 @@ document.addEventListener('DOMContentLoaded', function () {
             longitude: 1.4087935671132052,
             type: 'store'
         },
-    
+        {
+            name: "Peluquería Canina Cali's",
+            address: 'Carrer de Catalunya, 6, BAJO, 07820 Sant Antoni de Portmany',
+            phone: "+34 605 10 32 62",
+            latitude: 38.984764565376445,
+            longitude: 1.299882328969994,
+            type: 'store'
+        },
+
+        // San Rafael
+        {
+            name: 'Clinica Veterinaria Animalsvet',
+            address: 'Avinguda Isidor Macabich, 5, 07816 Sant Rafel',
+            phone: "+34 971 19 83 88",
+            latitude: 38.96176969376388, 
+            longitude: 1.398815165543731,
+            type: 'store'
+        },
         // San José
         {
             name: 'CEIP Ses Planes',
@@ -174,6 +191,22 @@ document.addEventListener('DOMContentLoaded', function () {
             phone: "+34 971 41 26 92",
             latitude: 38.98470877182918, 
             longitude: 1.535795327275915,
+            type: 'store'
+        },
+        {
+            name: 'Family Evolution Center',
+            address: 'Carrer de Cèsar Puget Riquer, N34, 07840 Santa Eulalia del Río',
+            phone: "+34 639 46 72 79",
+            latitude: 38.98902749865954,
+            longitude: 1.542353618115511,
+            type: 'store'
+        },
+        {
+            name: 'Clínica Veterinaria Siesta',
+            address: 'Carrer ses Petúnies, 9, 07849 Siesta, Illes Balears',
+            phone: "+34 971 09 22 74",
+            latitude: 38.97701674393976,
+            longitude: 1.5235486599283528,
             type: 'store'
         },
 
