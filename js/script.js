@@ -151,6 +151,14 @@ document.addEventListener('DOMContentLoaded', function () {
             longitude: 1.4234378466436144,
             type: 'store'
         },
+        {
+            name: 'Taquillas Trasmapi Ibiza',
+            address: 'Avinguda de Santa Eulària des Riu, s/n, 07800 Eivissa',
+            phone: "+34 971 31 44 33",
+            latitude: 38.912758017593596,
+            longitude: 1.4351313838086606,
+            type: 'store'
+        },
         // Santa Eulària
         {
             name: 'Ludoteca MEVAK IBIZA KIDS',
@@ -219,6 +227,14 @@ document.addEventListener('DOMContentLoaded', function () {
             latitude: null,
             longitude: null,
             type: 'ticket'
+        },
+        {
+            name: 'Taquillas Trasmapi Formentera',
+            address: 'Carrer del Vapor Manolito, 07870 La Savina',
+            phone: "+34 971 32 27 03",
+            latitude: 38.73407816014388,
+            longitude: 1.4153328650584145,
+            type: 'store'
         }
     ];
 
