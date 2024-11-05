@@ -119,7 +119,30 @@ document.addEventListener('DOMContentLoaded', function () {
             longitude: 1.4148102369665507,
             type: 'club'
         },
-
+        {
+            name: 'Mascotas Cora Eivissa',
+            address: 'C/ de Castella, 37, 07800 Eivissa',
+            phone: "+34 971 30 15 16",
+            latitude: 38.90943004727961,
+            longitude: 1.4274208490441733,
+            type: 'store'
+        },
+        {
+            name: 'CB Electric',
+            address: 'Carrer Cas Raspallar, 12, Pol. Ind, 07800 Blanca Dona',
+            phone: "+34 971 31 75 70",
+            latitude: 38.92140772731697,
+            longitude: 1.4275045072187047,
+            type: 'store'
+        },
+        {
+            name: 'Centro de Protección Animal Sa Coma',
+            address: 'Sa Coma Ibiza carretera de, Ibiza, 07800 Sant Antoni de Portmany',
+            phone: "+34 971 19 22 81",
+            latitude: 38.93664997018004,
+            longitude: 1.4087935671132052,
+            type: 'store'
+        },
         // Santa Eulària
         {
             name: 'Ludoteca MEVAK IBIZA KIDS',
@@ -136,6 +159,14 @@ document.addEventListener('DOMContentLoaded', function () {
             latitude: 38.98479697344273,
             longitude: 1.53701577048358,
             type: 'restaurant'
+        },
+        {
+            name: 'Mascotas Cora Santa Eulalia',
+            address: 'Carrer del Mar, 15, 07840 Santa Eulària des Riu',
+            phone: "+34 971 41 26 92",
+            latitude: 38.98470877182918, 
+            longitude: 1.535795327275915,
+            type: 'store'
         },
 
         // San Juan
