@@ -35,6 +35,14 @@ document.addEventListener('DOMContentLoaded', function () {
             longitude: 1.3139374589727715,
             type: 'school'
         },
+        {
+            name: 'Centro de Protección Animal Sa Coma',
+            address: 'Sa Coma Ibiza carretera de, Ibiza, 07800 Sant Antoni de Portmany',
+            phone: "+34 971 19 22 81",
+            latitude: 38.93664997018004,
+            longitude: 1.4087935671132052,
+            type: 'store'
+        },
     
         // San José
         {
@@ -136,11 +144,11 @@ document.addEventListener('DOMContentLoaded', function () {
             type: 'store'
         },
         {
-            name: 'Centro de Protección Animal Sa Coma',
-            address: 'Sa Coma Ibiza carretera de, Ibiza, 07800 Sant Antoni de Portmany',
-            phone: "+34 971 19 22 81",
-            latitude: 38.93664997018004,
-            longitude: 1.4087935671132052,
+            name: 'ECI Escuela de Cine de Ibiza',
+            address: 'Carrer de Múrcia, 19, 07800 Eivissa, Illes Balears',
+            phone: "+34 633 57 06 29",
+            latitude: 38.90891947744337,
+            longitude: 1.4234378466436144,
             type: 'store'
         },
         // Santa Eulària
