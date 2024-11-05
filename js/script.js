@@ -168,6 +168,22 @@ document.addEventListener('DOMContentLoaded', function () {
             longitude: 1.4351313838086606,
             type: 'store'
         },
+        {
+            name: 'Suma Puig D`en Valls',
+            address: "Suma Puig D' en Valls 07819, Balearic Islands",
+            phone: "",
+            latitude: 38.9256810596716,
+            longitude: 1.4300268100909637,
+            type: 'store'
+        },
+        {
+            name: 'Asociación de Vecinos Playa d en Bossa',
+            address: 'Carrer de les Alzines, 10, Eivissa',
+            phone: null,
+            latitude: 38.893657198281076,
+            longitude: 1.4065333148997918,
+            type: 'club'
+        },
         // Santa Eulària
         {
             name: 'Ludoteca MEVAK IBIZA KIDS',
@@ -234,6 +250,14 @@ document.addEventListener('DOMContentLoaded', function () {
             latitude: 39.07690061359235,
             longitude: 1.5125283989727483,
             type: 'school'
+        },
+        {
+            name: 'Mercadillo San Joan',
+            address: "Carrer de sa Cala, 3, 07810 Sant Joan de Labritja, Illes Balears",
+            phone: "",
+            latitude: 39.077883484565454,
+            longitude: 1.5139021625194025,
+            type: 'store'
         },
     
         // Formentera
