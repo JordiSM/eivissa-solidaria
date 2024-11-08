@@ -184,6 +184,22 @@ document.addEventListener('DOMContentLoaded', function () {
             longitude: 1.4065333148997918,
             type: 'club'
         },
+        {
+            name: 'OPTICALIA IBIZA Macabich',
+            address: "Av. d'Isidor Macabich, 25, 07800 Eivissa",
+            phone: "+34 871 50 56 38",
+            latitude: 38.91013434637158,
+            longitude: 1.4278491559359165,
+            type: 'store'
+        },
+        {
+            name: 'OPTICALIA IBIZA Av. Espanya',
+            address: "Av. d'Espanya, 42, 07800 Eivissa",
+            phone: "+34 971 07 25 04",
+            latitude: 38.908023343628344,
+            longitude: 1.4279878005135256,
+            type: 'store'
+        },
         // Santa Eulària
         {
             name: 'Ludoteca MEVAK IBIZA KIDS',
